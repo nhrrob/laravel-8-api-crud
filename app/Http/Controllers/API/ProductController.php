@@ -95,9 +95,9 @@ class ProductController extends Controller
      * @param  str  $name
      * @return \Illuminate\Http\Response
      */
-    public function search($name)
+    public function search($title)
     {
-        $products = Product::where('title', 'like', '%'.$name.'%')->get();
+        $products = Product::where('title', 'like', '%'.$title.'%')->get();
         return ProductResource::collection($products);
     }
 }
