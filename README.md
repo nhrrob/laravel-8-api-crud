@@ -10,7 +10,7 @@
 
 ## Laravel 8 API Crud (Passport)
 
-Laravel 8 API Crud is a basic RESTful API crud app built with Laravel 8 and Passport. In this project a rest api created for managing product crud operations. 
+Laravel 8 API Crud is a basic RESTful API crud app built with Laravel 8 and Passport, and now runs on Laravel 13 and Passport 13. In this project a rest api created for managing product crud operations. 
 
 Features (API) include:
 
